@@ -1,0 +1,36 @@
+body{
+    background-image: url(red.png);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Mont-Heavy';
+}
+
+
+
+
+.note{
+
+    font-size: 23px;
+    width: 100%;
+    color:deeppink;
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 15%;
+    padding-top: 20px;
+    box-shadow: 5px 5px 20px white;
+}
+#footer{
+    bottom: 0;
+    line-height: 3;
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+@font-face {
+    font-family: 'Mont-Heavy';
+    src: url(Mont-HeavyDEMO.otf);
+}
+canvas{
+    box-shadow: 5px 5px 20px white;
+}
